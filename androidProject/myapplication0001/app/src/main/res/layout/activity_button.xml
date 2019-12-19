@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="我是按钮"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:background="#FF0000"/>
+    <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="我是按钮啊啊啊"
+            android:textColor="#FFFFFF"
+
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_btn2"
+            android:layout_below="@id/btn_1"/>
+
+    <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="我是按钮啊啊啊"
+            android:textColor="#000000"
+
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_btn3"
+            android:layout_below="@id/btn_2"/>
+
+    <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="我是点击变色按钮"
+            android:textColor="#000000"
+            android:onClick="showToast"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_btn4"
+            android:layout_below="@id/btn_2"/>
+
+</RelativeLayout>
